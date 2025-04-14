@@ -35,13 +35,43 @@
             <div class="server-item">
                 <img src="assets/img/user2.jpg" class="profile-img align-items-center" />
             </div>
-            <div class="server-item">+</div>
             <div class="server-item"><i class="bi bi-compass-fill"></i></div>
             <div class="server-item"><i class="bi bi-download"></i></div>
+            <div class="server-item" onclick="openCreateServerModal()">+</div>
+        </div>
+        <div class="server-dropdown-menu d-none" id="serverDropdownMenu">
+            <div class="dropdown-item">
+                <i class="bi bi-arrow-up-circle me-2"></i> Nâng Cấp Máy Chủ
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-people-fill me-2"></i> Mời Mọi Người
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-gear-fill me-2"></i> Cài đặt máy chủ
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-plus-circle-fill me-2"></i> Tạo kênh
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-folder-plus me-2"></i> Tạo Danh Mục
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-calendar-event-fill me-2"></i> Tạo Sự Kiện
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-grid-3x3-gap-fill me-2"></i> Thư Mục App
+            </div>
+            <hr class="dropdown-divider">
+            <div class="dropdown-item">
+                <i class="bi bi-bell-fill me-2"></i> Cài đặt thông báo
+            </div>
+            <div class="dropdown-item">
+                <i class="bi bi-shield-lock-fill me-2"></i> Cài Đặt Bảo Mật
+            </div>
         </div>
         <!-- Server channels sidebar -->
         <div class="server-channels pe-3">
-            <h6 class="text-white mb-3">Máy chủ của Test</h6>
+            <h6 class="text-white mb-3">Máy chủ của Test<i class="bi bi-chevron-down ms-2"></i></h6>
 
             <div class="channel-category">
                 <i class="bi bi-chevron-down"></i> Kênh Chat
